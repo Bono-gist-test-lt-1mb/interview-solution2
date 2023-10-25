@@ -70,7 +70,7 @@ helm upgrade -i  hello-chart ./hello-chart
 
 ## For minikube set up minikube tunnel
 
-*IN nother shell execute minikube tunnel*
+*IN another shell execute minikube tunnel*
 
 **This must be left running for the loadbalancer to work under minikube**
 
