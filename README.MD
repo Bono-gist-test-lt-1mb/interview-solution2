@@ -16,24 +16,25 @@ You are not required to automate the installation of minikube on the host machin
 
 ## File inventory
 
-| Filename   | Comments                                           |
-| ---------- | -------------------------------------------------- |
-| Dockerfile | Docker file to build image.                        |
-| LICENSE    | MIT License file                                   |
-| README.MD  | This README.MD                                     |
-| main.py    | The api code which is built into the docker image. |
+| Filename    | Comments                                           |
+| ----------- | -------------------------------------------------- |
+| Dockerfile  | Docker file to build image.                        |
+| LICENSE     | MIT License file                                   |
+| README.MD   | This README.MD                                     |
+| hello-chart | helm chart (folder) for helm deployment.           |
+| main.py     | The api code which is built into the docker image. |
 
 ## Installation
 
 *Open a termianl and clone the git repo*
 
-`git clone https://github.com/Bono-gist-test-lt-1mb/interview-solution2.git`     
+`git clone https://github.com/Bono-gist-test-lt-1mb/interview-solution.git`     
 
 ## Build the docker image
 
 *cd into the folder created*
 
-`cd interview-solution2`
+`cd interview-solution`
 
 *You will need a docker image repo named hello created*
 
@@ -94,8 +95,6 @@ hello-chart   LoadBalancer   10.109.43.132   127.0.0.1     8080:31812/TCP   1m22
 (or if localhost is not defined on your system use http://127.0.0.1:8080 )
 
 *Observe text*  "Hello World!" and it is done.
-
-# 
 
 
 
