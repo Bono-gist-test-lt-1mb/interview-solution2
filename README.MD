@@ -27,13 +27,13 @@ You are not required to automate the installation of minikube on the host machin
 
 *Open a termianl and clone the git repo*
 
-`git clone https://github.com/Bono-gist-test-lt-1mb/interview-solution.git`     
+`git clone https://github.com/Bono-gist-test-lt-1mb/interview-solution2.git`     
 
 ## Build the docker image
 
 *cd into the folder created*
 
-`cd interview-solution`
+`cd interview-solution2`
 
 *You will need a docker image repo named hello created*
 
