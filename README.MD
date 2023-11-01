@@ -75,19 +75,19 @@ helm upgrade -i  hello-chart ./hello-chart
 **This must be left running for the loadbalancer to work under minikube**
 
 ## Verify service is up
-
+```
 kubectl get svc
 NAME          TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 hello-chart   LoadBalancer   10.109.43.132   <pending>     8080:31812/TCP   32s
-
+```
 **it may be in pending for a minute**
 
 *Check again*
-
+```
 kubectl get svc
 NAME          TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 hello-chart   LoadBalancer   10.109.43.132   127.0.0.1     8080:31812/TCP   1m22s
-
+```
 **On my mac it took literally a minute to become "ready"**
 
 ## Hit http://localhost:8080 with yor browser
